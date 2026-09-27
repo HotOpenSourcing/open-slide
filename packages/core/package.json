@@ -1,7 +1,7 @@
 {
   "name": "@open-slide/core",
   "version": "2.0.1",
-  "description": "Runtime and CLI for open-slide — write slides in slides/, we handle the rest.",
+  "description": "Runtime and CLI for open-slide \u2014 write slides in slides/, we handle the rest.",
   "type": "module",
   "exports": {
     ".": {
@@ -33,7 +33,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit",
     "test:e2e": "pnpm run build && playwright test",
     "prepack": "pnpm build"

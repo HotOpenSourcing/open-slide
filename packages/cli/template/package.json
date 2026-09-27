@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "open-slide dev",
-    "build": "open-slide build",
+    "dev": "node init && open-slide dev",
+    "build": "node init && open-slide build",
     "preview": "open-slide preview",
     "sync:skills": "open-slide sync:skills"
   },
